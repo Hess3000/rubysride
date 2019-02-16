@@ -1,0 +1,111 @@
+// COLORS
+$primary-black: #000;
+
+// TYPOGRAPHY
+:root {
+  font-size: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "english-grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: $primary-black;
+  line-height: 1.1;
+}
+
+.small-body {
+  font-size: 0.75em;
+}
+
+.large-body {
+  font-family: "english-grotesque", sans-serif;
+  font-size: 32px;
+  color: $primary-black;
+}
+
+.extra {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: "english-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: $primary-black;
+}
+
+h2 {
+  font-family: "english-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: $primary-black;
+}
+
+h3 {
+  font-family: "english-grotesque", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $primary-black;
+}
+
+.small-heading {
+  font-size: 0.75rem;
+}
+
+a {
+  color: $primary-black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: $primary-black;
+}
+
+// STRUCTURE
+main,
+.container {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.anchor {
+  display: block;
+  height: 40px;
+  margin-top: -50px;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .anchor {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+}
