@@ -4,12 +4,27 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+.body {
+	}
+
 .content {
   font-size: $custom-font-size;
+}
+
+// header 
+
+.header {
+	background-color: $dark-pink;
 }
 
 // about
 
 .jumbotron-about {
-	background: white;
+	background-color: $light-pink;
+}
+
+// footer
+
+.footer {
+	background-color: $dark-pink;
 }
